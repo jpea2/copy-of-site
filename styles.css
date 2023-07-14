@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    margin-top: 2rem;
+    width: 1100px;
+    height: 100%;
+    color: white;
+}
+
+.nav-info {
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+
+.nav-info a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.premium-link-btn{
+    color: gold;
+}
