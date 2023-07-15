@@ -3,8 +3,8 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 header {
-    background-color: rgba(0, 0, 0, 0.65);
-    height: 30rem;
+    background-color: rgba(0, 0, 0, 0.778);
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,8 @@ nav {
 }
 
 .nav-info h1 {
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .nav-info a {
@@ -58,22 +59,67 @@ nav {
 
 .hero-info {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .hero-info p {
-    width: 400px;
+    width: 650px;
+    color: rgb(146, 146, 146);
+    text-align: center;
+}
+
+.hero-info h1 {
+    font-size: 40;
+    font-weight: 600;
 }
 
 .hero-info > button {
-    padding: 0.5rem;
-    border-radius: 1rem;
+    padding: 0.75rem;
+    border-radius: 2rem;
     background-color: lightseagreen;
     color: white;
-    border: 2px solid white;
-    font-size: 15px;
+    border: 2px solid lightseagreen;
+    font-size: 20px;
     margin-top: 1rem;
+}
+
+.custom-shape-divider-top-1689414861 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1689414861 svg {
+    position: relative;
+    display: block;
+    width: calc(231% + 1.3px);
+    height: 350px;
+}
+
+.custom-shape-divider-top-1689414861 .shape-fill {
+    fill: #4a4a4a12;
+}
+
+.main-start-exploring {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 1100px;
+    margin: auto;
+}    
+
+.main-start-exploring a {
+    text-decoration: none;
+}
+
+.main-start-exploring img {
+    height: 600px;
+    width: 600px;
+    padding-left: 2rem;
 }
