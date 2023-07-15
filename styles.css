@@ -116,10 +116,15 @@ nav {
 
 .main-start-exploring a {
     text-decoration: none;
+    
 }
 
 .main-start-exploring img {
     height: 600px;
     width: 600px;
     padding-left: 2rem;
+}
+
+.main-start-text {
+    
 }
