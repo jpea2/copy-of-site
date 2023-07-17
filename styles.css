@@ -1,14 +1,21 @@
+:root {
+    --blue-color: rgb(0, 157, 224);
+    --blue-darker-color: rgb(0, 134, 191);
+    --off-white: #e8e6e6;
+}
+main {
+    background-color: var(--off-white);
+}
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 header {
     background-color: rgba(0, 0, 0, 0.778);
-    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
 }
 nav {
     margin-top: 2rem;
@@ -112,6 +119,7 @@ nav {
 
 .main-start-exploring a {
     text-decoration: none;
+    color: var(--blue-darker-color);
     
 }
 
@@ -135,10 +143,32 @@ nav {
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 100px  ;
+    gap: 100px;
+    margin-top: 2rem;
+}
+
+.questionsAndCompaniesSection a {
+    text-decoration: none;
+    color: var(--blue-darker-color);
 }
 
 .questionsAndCompaniesSection > div{
     flex: 1;
+    height: 20rem;
+}
+
+.questionsAndCompaniesSection img {
+    width: 200px;
+}
+
+.qcc-h2 {
+    color: var(--blue-color);
+}
+
+.cc-h2 {
+    color: rgb(163, 139, 0);
+}
+
+footer {
     height: 20rem;
 }
