@@ -2,6 +2,7 @@
     --blue-color: rgb(0, 157, 224);
     --blue-darker-color: rgb(0, 134, 191);
     --off-white: #e8e6e6;
+    --text-grey: rgb(146, 146, 146);
 }
 main {
     background-color: var(--off-white);
@@ -147,6 +148,10 @@ nav {
     margin-top: 2rem;
 }
 
+.questionsBorder {
+    border-right: 2px solid rgba(255, 255, 255, 0.576);
+}
+
 .questionsAndCompaniesSection a {
     text-decoration: none;
     color: var(--blue-darker-color);
@@ -155,6 +160,7 @@ nav {
 .questionsAndCompaniesSection > div{
     flex: 1;
     height: 20rem;
+    color: var(--text-grey);
 }
 
 .questionsAndCompaniesSection img {
@@ -171,4 +177,26 @@ nav {
 
 footer {
     height: 20rem;
+}
+
+.developer-information-section  {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.developer-information-section img {
+    width: 90px;
+}
+.developer-information-section h2 {
+    color: green;
+}
+.developer-information-section p {
+    width: 600px;
+    color: var(--text-grey);
 }
