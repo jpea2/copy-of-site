@@ -175,18 +175,17 @@ nav {
     color: rgb(163, 139, 0);
 }
 
-footer {
-    height: 20rem;
-}
+
 
 .developer-information-section  {
     text-align: center;
     align-items: center;
     flex-direction: column;
     margin: auto;
-    margin-top: 8rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: center;
+    padding-bottom: 5rem;
 
 }
 
@@ -199,4 +198,42 @@ footer {
 .developer-information-section p {
     width: 600px;
     color: var(--text-grey);
+}
+
+footer {
+    height: 20rem;
+    margin-bottom: 10rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p {
+    color: var(--text-grey);
+    width: 600px;
+}
+footer hr {
+    width: 700px;
+    background-color: var(--text-grey);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+footer a {
+    color: var(--blue-color);
+    text-decoration: none;
+}
+
+footer h2 {
+    color: red;
+}
+
+footer img {
+    width: 100px;
 }
