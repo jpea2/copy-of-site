@@ -135,7 +135,7 @@ nav {
     justify-content: center;
     align-items: center;
     margin: auto;
-    gap: 100px;
+    gap: 100px  ;
 }
 
 .questionsAndCompaniesSection > div{
