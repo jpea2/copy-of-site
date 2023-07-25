@@ -29,6 +29,14 @@ nav {
     display: flex;
     align-items: center;justify-content: space-between;
 }
+.headerLogo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-info img {
+    width: 40px;
+}
 
 .nav-info h1 {
     font-size: 30px;
@@ -39,24 +47,21 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav-info a:hover {
     color: rgb(146, 146, 146);
     border-radius: 2px solid white;
     background-color: white;
-    border-radius: 1rem;
+    border-radius: 4rem;
 }
 
 #premium-link-btn:hover {
     color: rgb(146, 146, 146);
     border-radius: 2px solid gold;
     background-color: gold;
-    padding: 1rem;
-    border-radius: 1rem;
-}   
-
+}
 
 #premium-link-btn {
     color: gold;
