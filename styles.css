@@ -216,11 +216,12 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 1100px;
+    margin: auto;
 }
 
 footer p {
     color: var(--text-grey);
-    width: 600px;
 }
 footer hr {
     width: 700px;
@@ -241,4 +242,24 @@ footer h2 {
 
 footer img {
     width: 100px;
+}
+
+.bottomFooterPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    color: var(--text-grey);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.bottomHr {
+    margin-top: 3rem;
+}
+
+.bottomFooterPart a {
+    text-decoration: none;
+    color: var(--text-grey);
 }
