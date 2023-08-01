@@ -12,7 +12,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 header {
-    background-color: rgba(0, 0, 0, 0.778);
+    /* background-color: rgba(0, 0, 0, 0.778); */
+    background-image: url(https://media3.giphy.com/media/ftdUR4PR8hCzoiAM9y/giphy.gif?cid=ecf05e47mhdqzoefa16z64djpopppg9f42aihku66afi5ggu&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
